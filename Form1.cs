@@ -12,6 +12,7 @@ namespace Crush
         private void openButton_Click(object sender, EventArgs e)
         {
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            path = Path.Combine(path, "Audacity");
             openAudioFileDialog.InitialDirectory = path;
             openAudioFileDialog.Filter = "*.wav|*.wav";
             var r = openAudioFileDialog.ShowDialog();
