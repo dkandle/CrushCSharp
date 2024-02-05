@@ -1,0 +1,3 @@
+The project these tools were developed for involved collecting data to determine airport usage and identify safety issues at my local airport.
+Based on the software for that project I’ve produced a simple Windows program which will take an audio file as input and output a condensed audio file which has the dead time removed and the time codes inserted.
+NOTE: In this version the time inserted will be the time that the file was processed. It has no way to know the time that the original recording was made. In a “real” version of this tool, you would be able to enter a date-time of the original recording.
